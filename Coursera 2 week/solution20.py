@@ -2,7 +2,8 @@
 #Можно ли купить ровно k шариков мороженого?
 
 k = int(input())
-if k % 3 == 0 or k % 5 == 0:
-    print('YES')
-else:
+if k == 1 or k == 2 or k == 4 or k == 7:
     print('NO')
+else:
+    print('YES')
+
