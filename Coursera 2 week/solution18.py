@@ -1,9 +1,9 @@
-a1 = int(input())
-b1 = int(input())
-c1 = int(input())
-a2 = int(input())
-b2 = int(input())
-c2 = int(input())
+#Есть две коробки, первая размером A₁×B₁×C₁, вторая размером A₂×B₂×C₂. Определите, можно ли разместить одну из
+# этих коробок внутри другой, при условии, что поворачивать коробки можно только на 90 градусов вокруг ребер.
+
+a1, b1, c1 = int(input()), int(input()), int(input())
+a2, b2, c2 = int(input()), int(input()), int(input())
+
 min1 = min(a1, b1, c1)
 max1 = max(a1, b1, c1)
 ost1 = a1 + b1 + c1 - max1 - min1
